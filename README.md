@@ -32,11 +32,7 @@ If Windows shows *"Windows protected your PC"*, click **More info → Run anyway
 
 **4. A black window opens.** It shows the file it will edit and a small menu. Type **1** and press **Enter**.
 
-![The setup window with the menu](docs/images/step3-menu.png)
-
 **5. Done.** The window tells you how many lines were added and where the backup is. Press any key to close it.
-
-![The setup window after adding the keys](docs/images/step4-done.png)
 
 **6. Start the game.** Open the Inventory, hover a potion, decoction or food and press **F1–F4** to assign it. Close the inventory and press the same key to use it.
 
