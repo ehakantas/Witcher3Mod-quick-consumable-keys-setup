@@ -51,23 +51,13 @@ Click **More info → Run anyway** – or use [Manual setup](#manual-setup) inst
 
 ## Manual setup
 
-Open `Documents\The Witcher 3\input.settings` with Notepad (game closed) and paste the 4 lines above
-at the end of each of the 7 sections listed. Save.
+Open `Documents\The Witcher 3\input.settings` with Notepad (game closed) and paste the 4 lines below
+at the end of each of the 7 sections listed. (`[Exploration]`, `[Combat]`, `[Horse]`, `[Swimming]`, `[JumpClimb]`, `[Boat]`, `[BoatPassenger]`):
 
+  ```
+  IK_F1=(Action=ModCB_UseSlot1)
+  IK_F2=(Action=ModCB_UseSlot2)
+  IK_F3=(Action=ModCB_UseSlot3)
+  IK_F4=(Action=ModCB_UseSlot4)
+  ```
 ---
-
-## Türkçe
-
-**Quick Consumable Keys** modunun **F1–F4** tuşlarını tek tıkla açan küçük bir yardımcı.
-
-**Kullanım:** Oyunu kapat → `QCK-KeySetup.bat` dosyasına çift tıkla → **1** → Enter → oyunu aç.
-Ayarlardan *Tuşları varsayılana sıfırla* yaparsan tekrar çalıştır.
-
-**Ne yapar:** Yalnızca `Documents\The Witcher 3\input.settings` dosyasını açar, önce yanına yedek alır,
-7 bölümün sonuna yukarıdaki 4 satırı ekler. Satırlar zaten varsa hiçbir şey yapmaz. Oyun açıksa çalışmaz.
-
-**Ne yapmaz:** İnternete bağlanmaz, yönetici izni istemez, oyun dosyalarına, kayıtlara veya başka dosyalara dokunmaz.
-
-**Geri alma:** Tekrar çalıştırıp **2**'ye bas ya da yedek dosyanın adını `input.settings` yap.
-
-**İçini görmek için:** Dosyaya sağ tık → *Düzenle*. Düz metin, yorumlu bir PowerShell kodu.
