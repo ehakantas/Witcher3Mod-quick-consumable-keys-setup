@@ -21,11 +21,9 @@ Run it again any time you use **Options → Key Bindings → Reset to defaults**
 **1. Download the file**
 
 - Open [QCK-KeySetup.bat](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/blob/main/QCK-KeySetup.bat) and click the **Download raw file** icon (↓) at the top right of the code box, **or**
-- download everything as a ZIP: [main.zip](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/archive/refs/heads/main.zip) and unzip it.
+  download everything as a ZIP: [main.zip](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/archive/refs/heads/main.zip) and unzip it.
 
-> Don't use *Save page as* / Ctrl+S on the "Raw" page – the browser may save it as `.txt`, and it won't run.
-
-**2. Close The Witcher 3** (not just the menu – exit the game).
+**2. Close The Witcher 3** (exit the game).
 
 **3. Double-click `QCK-KeySetup.bat`.**
 If Windows shows *"Windows protected your PC"*, click **More info → Run anyway** (see [Windows warning?](#windows-warning)).
