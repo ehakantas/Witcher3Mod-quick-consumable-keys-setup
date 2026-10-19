@@ -16,6 +16,39 @@ It turns on the mod's **F1–F4** keys with one double-click.
 
 Run it again any time you use **Options → Key Bindings → Reset to defaults** (that reset removes mod keys – the mod will remind you in-game).
 
+## Running the setup – step by step
+
+**1. Download the file**
+
+- Open [QCK-KeySetup.bat](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/blob/main/QCK-KeySetup.bat) and click the **Download raw file** icon (↓) at the top right of the code box, **or**
+- download everything as a ZIP: [main.zip](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/archive/refs/heads/main.zip) and unzip it.
+
+> Don't use *Save page as* / Ctrl+S on the "Raw" page – the browser may save it as `.txt`, and it won't run.
+
+**2. Close The Witcher 3** (not just the menu – exit the game).
+
+**3. Double-click `QCK-KeySetup.bat`.**
+If Windows shows *"Windows protected your PC"*, click **More info → Run anyway** (see [Windows warning?](#windows-warning)).
+
+**4. A black window opens.** It shows the file it will edit and a small menu. Type **1** and press **Enter**.
+
+![The setup window with the menu](docs/images/step3-menu.png)
+
+**5. Done.** The window tells you how many lines were added and where the backup is. Press any key to close it.
+
+![The setup window after adding the keys](docs/images/step4-done.png)
+
+**6. Start the game.** Open the Inventory, hover a potion, decoction or food and press **F1–F4** to assign it. Close the inventory and press the same key to use it.
+
+**Other messages you may see**
+
+| Message | What it means |
+|---|---|
+| `Nothing to change - the file is already up to date.` | The keys are already set up. Nothing was changed. |
+| `The Witcher 3 is running. Please close the game first...` | Exit the game, then run the file again. |
+| `input.settings was not found.` | Start the game once (to the main menu), exit, then run the file again. |
+| `No changes made.` | You chose **Q** (or another key). Nothing was changed. |
+
 ## What it does – exactly
 
 - Opens **one** file: `Documents\The Witcher 3\input.settings` (a plain text file with your key bindings).
