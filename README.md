@@ -20,8 +20,7 @@ Run it again any time you use **Options → Key Bindings → Reset to defaults**
 
 **1. Download the file**
 
-- Open [QCK-KeySetup.bat](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/blob/main/QCK-KeySetup.bat) and click the **Download raw file** icon (↓) at the top right of the code box, **or**
-  download everything as a ZIP: [main.zip](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/archive/refs/heads/main.zip) and unzip it.
+- Open [QCK-KeySetup.bat](https://github.com/ehakantas/Witcher3Mod-quick-consumable-keys-setup/blob/main/QCK-KeySetup.bat) and click the **Download raw file** icon (↓) at the top right of the code box.
 
 **2. Close The Witcher 3** (exit the game).
 
@@ -31,8 +30,6 @@ If Windows shows *"Windows protected your PC"*, click **More info → Run anyway
 **4. A black window opens.** It shows the file it will edit and a small menu. Type **1** and press **Enter**.
 
 **5. Done.** The window tells you how many lines were added and where the backup is. Press any key to close it.
-
-**6. Start the game.** Open the Inventory, hover a potion, decoction or food and press **F1–F4** to assign it. Close the inventory and press the same key to use it.
 
 **Other messages you may see**
 
@@ -56,13 +53,6 @@ If Windows shows *"Windows protected your PC"*, click **More info → Run anyway
   ```
 - Skips lines that are already there – running it twice is safe.
 - Does nothing if the game is running.
-
-## What it does NOT do
-
-- ❌ No internet access, no downloads
-- ❌ No admin rights needed
-- ❌ Doesn't touch game files, saves, other mods or any other file
-- ❌ Doesn't change your existing key bindings – it only adds lines
 
 **Check it yourself:** right-click `QCK-KeySetup.bat` → *Edit* (or open with Notepad). It's ~150 lines of plain, commented PowerShell.
 
